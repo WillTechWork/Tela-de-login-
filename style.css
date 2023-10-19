@@ -80,8 +80,8 @@ header {
 }
 
 .navigation .btnLogin-popup:hover {
-    background: #fff;
-    color: #162938;
+    background: #162938;
+    color: #fff;
 }
 
 .wrapper {
