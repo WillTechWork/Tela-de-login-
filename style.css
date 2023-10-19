@@ -32,14 +32,14 @@ header {
 
 .logo {
     font-size: 2em;
-    color: #fff;
+    color: #162938;
     user-select: none;
 }
 
 .navigation a {
     position: relative;
-    font-size: 1.1em;
-    color: #fff;
+    font-size: 1.3em;
+    color: #162938;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
@@ -52,9 +52,9 @@ header {
     bottom: -6px;
     width: 100%;
     height: 3px;
-    background: #fff;
+    background: #162938;
     border-radius: 5px;
-    transform-origin: right;
+    transform-origin: left;
     transform: scaleX(0);
     transition: transform .5s;
 }
@@ -87,16 +87,16 @@ header {
 .wrapper {
     position: relative;
     width: 400px;
-    height: 440px;
+    height: 445px;
     background: transparent;
-    border: 2px solid rgba(255, 255, 255, .5);
+    border: 8px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     transform: scale(0);
     transition: transform .5s ease, height .2s ease;
 }
@@ -141,9 +141,9 @@ header {
     right: 0;
     width: 45px;
     height: 45px;
-    background: #162938;
+    background: #fff;
     font-size: 2em;
-    color: #fff;
+    color: #162938;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,7 +190,7 @@ header {
     border: none;
     outline: none;
     font-size: 1em;
-    color: #162938;
+    color: #bcc3c9;
     font-weight: 600;
     padding: 0 35px 0 5px;
 }
@@ -245,14 +245,4 @@ header {
     text-align: center;
     font-weight: 500;
     margin: 25px 0 10px;
-}
-
-.login-register p a {
-    color: #162938;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.login-register p a:hover {
-    text-decoration: underline;
 }
