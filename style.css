@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    /* background: url(https://images.wallpaperscraft.com/image/single/ford_f150_raptor_99495_1366x768.jpg)no-repeat; */
     background: url('https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/393017654_699325795442724_3903428899837412888_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF9R4JRTjmXmGXOmlooKF_V7fGQpCoQFKnt8ZCkKhAUqR7SiK1Svi-wy1p61BpXL-XK4HTOn8tm0CrFfGNBavpU&_nc_ohc=C5Doq1IFaI0AX85tDEL&_nc_ht=scontent-gru1-1.xx&oh=00_AfCiNdbYEcOd82DyyQVpuH1oHpSmu75lnggJddCpcnG1Cw&oe=6535DC87') no-repeat;
     background-size: cover;
     background-position: center;
